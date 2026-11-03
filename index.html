@@ -1,0 +1,2822 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <base href="https://narcissistic-wrld.myshopify.com/"><script data-source-attribution="shopify.exit_interstitial">(()=>{var s=Function.prototype.bind.bind(Function.prototype.call),yt=(c,r)=>{for(let d=c;d;d=Object.getPrototypeOf(d)){let g=Object.getOwnPropertyDescriptor(d,r);if(g)return g}throw new TypeError(`${r} is not defined`)},u=(c,r)=>s(yt(c,r).get),B=(c,r)=>s(yt(c,r).set);var Et=s(String.prototype.endsWith),Pe=s(String.prototype.slice),_=s(RegExp.prototype.exec),Ae=/^_(self|top|parent)$/i,Le=/(^|\s)noreferrer(\s|$)/i,mt=/^(no-referrer(-when-downgrade)?|same-origin|(strict-)?origin(-when-cross-origin)?|unsafe-url)$/i,We=/^(never|default|always|origin-when-crossorigin)$/i,wt=/^(no-referrer|same-origin|never)$/i,Ie=/\s(musical_ly|trill)_|\sBytedanceWebview\//,ht=c=>Et(c,".")?Pe(c,0,-1):c,_t=c=>{let r=ht(c),d=`.${r}`;return g=>{let m=ht(g);return m===r||Et(m,d)}},bt=(c,r,d)=>c!==void 0&&(c.protocol==="https:"||c.protocol==="http:")&&c.origin!==r&&!d(c.hostname),kt=(c,r,d)=>c!==null&&_(Le,c)!==null?!0:r!==null&&_(mt,r)!==null?_(wt,r)!==null:d,vt=(c,r)=>_(mt,c)!==null||_(We,c)!==null?_(wt,c)!==null:r,L=(c,{metaKey:r,ctrlKey:d,shiftKey:g,button:m})=>c&&_(Ae,c)===null?c:r||d||g||m===1?"_blank":"",Nt=c=>_(Ie,c)!==null;var Te="http://www.w3.org/2000/svg",Me="http://www.w3.org/1999/xlink",G=["rel","referrerpolicy","download","ping","hreflang","type"];function St(c){let r=window;if(r.top!==r)return;let d=document,g=r.navigation,m=location.origin,N=URL,q=u(N.prototype,"href"),Rt=u(N.prototype,"origin"),xt=u(N.prototype,"protocol"),Ot=u(N.prototype,"hostname"),Y=s(Event.prototype.preventDefault),Pt=s(Event.prototype.stopPropagation),j=s(Event.prototype.stopImmediatePropagation),V=s(Event.prototype.composedPath),At=u(Event.prototype,"type"),Lt=u(Event.prototype,"cancelable"),X=u(Event.prototype,"defaultPrevented"),Wt=u(Event.prototype,"bubbles"),It=u(Event.prototype,"currentTarget"),Tt=u(Event.prototype,"eventPhase"),{CAPTURING_PHASE:Mt}=Event,z=u(Event.prototype,"cancelBubble"),Ct=B(Event.prototype,"cancelBubble"),Dt=u(MouseEvent.prototype,"button"),Ft=u(MouseEvent.prototype,"metaKey"),Ht=u(MouseEvent.prototype,"ctrlKey"),$t=u(MouseEvent.prototype,"shiftKey"),Kt=g&&u(NavigateEvent.prototype,"destination"),Ut=g&&u(NavigationDestination.prototype,"url"),J=g&&u(NavigateEvent.prototype,"navigationType"),Bt=g&&u(NavigateEvent.prototype,"formData"),Q=g&&"sourceElement"in NavigateEvent.prototype?u(NavigateEvent.prototype,"sourceElement"):void 0,w=s(Element.prototype.getAttribute),Gt=s(Element.prototype.getAttributeNS),W=s(Element.prototype.setAttribute),qt=u(Element.prototype,"localName"),Yt=u(Element.prototype,"namespaceURI"),jt=s(Document.prototype.querySelector),Vt=s(Document.prototype.querySelectorAll),Xt=u(NodeList.prototype,"length"),zt=s(NodeList.prototype.item),I=u(Node.prototype,"baseURI"),Jt=s(Document.prototype.createElement),Qt=s(HTMLElement.prototype.click),Zt=s(r.open),te=s(location.assign),ee=s(location.replace),ne=encodeURIComponent,oe=s(String.prototype.startsWith),Z=s(r.setTimeout),re=s(r.addEventListener),se=s(r.removeEventListener),tt=s(EventTarget.prototype.addEventListener),et=s(EventTarget.prototype.removeEventListener),nt=Object.defineProperties,ot=t=>{let e=[],n=[HTMLElement.prototype,SVGElement.prototype,Document.prototype,r];for(let o=0;o<n.length;o+=1)try{e[e.length]={get:u(n[o],t),set:B(n[o],t)}}catch{}return e},ce={click:ot("onclick"),auxclick:ot("onauxclick")},rt=WeakMap,ie=WeakSet,st=s(WeakMap.prototype.get),ae=s(WeakMap.prototype.set),le=s(WeakMap.prototype.delete),ue=s(WeakSet.prototype.add),pe=s(WeakSet.prototype.has),fe=_t(c.site),de=Nt(navigator.userAgent),ct=q(new N(c.exitPath,m)),ge=`${ct}?`,O=(t,e)=>{try{let n=new N(t,e);return{href:q(n),origin:Rt(n),protocol:xt(n),hostname:Ot(n)}}catch{return}},ye=(t,e,n)=>{let o=n?"&noreferrer=1":"";return`${ct}?q=${ne(t.href)}&trigger=${e}${o}`},it=()=>{let t=Vt(d,'meta[name="referrer" i][content]'),e=!1;for(let n=0;n<Xt(t);n+=1)e=vt(w(zt(t,n),"content"),e);return e},at=(t,e,{target:n,noReferrer:o,replaces:a})=>{let f=ye(t,e,o);if(n){Zt(r,f,n,"noopener");return}(a?ee:te)(location,f)},T=t=>bt(t,m,fe),P=0,M,C=!1,he=t=>{if(P>0){M=t;return}t()},Ee=t=>{if(P-=1,t&&(C=!0),P>0)return;let e=C?void 0:M;M=void 0,C=!1,e&&e()},me=t=>t!==void 0&&oe(t.href,ge),lt=t=>{try{return qt(t)}catch{return}},ut=t=>kt(w(t,"rel"),w(t,"referrerpolicy"),it()),we=t=>{let e=Q?Q(t):null,n=e===null?void 0:lt(e);return n==="a"||n==="area"?ut(e):it()},_e=t=>{let e=O(Ut(Kt(t)));if(me(e)){j(t);return}if(!Lt(t)||J(t)==="traverse"||!T(e)||Bt(t)!==null)return;Y(t);let n={target:"",noReferrer:we(t),replaces:J(t)==="replace"};he(()=>at(e,"navigate",n))},R=t=>{let e=w(t,"href");return e===null&&Yt(t)===Te?Gt(t,Me,"href"):e},be=t=>{let e=V(t);for(let n=0;n<e.length;n+=1){let o=e[n],a=lt(o);if(a==="a"||a==="area"){let f=R(o);if(f!==null)return{node:o,href:f}}}},D=t=>{let e=w(t,"target");if(e!==null)return e;let n=jt(d,"base[target]");return n?w(n,"target"):""},ke=t=>{try{return{metaKey:Ft(t),ctrlKey:Ht(t),shiftKey:$t(t),button:Dt(t)}}catch{return}},pt=new ie,ve=t=>{let e=!1,n=()=>{e=!0},o=()=>e||pe(pt,t);return nt(t,{__proto__:null,preventDefault:{__proto__:null,configurable:!0,value:n},defaultPrevented:{__proto__:null,configurable:!0,get:o},returnValue:{__proto__:null,configurable:!0,get:()=>!o(),set:a=>{a||n()}}}),o},Ne={click:new rt,auxclick:new rt},Se=(t,e)=>{let n=ce[t],o=Ne[t],a=[],f=p=>{for(let l=0;l<a.length;l+=1)if(a[l]===p)return!0;return!1},b=(p,l,E)=>{let y=s(E);function A(v){let x=y(this,v);return x===!1&&typeof v=="object"&&v!==null&&ue(pt,v),x}return{target:p,accessor:l,handler:E,wrapper:A,inFlight:0}},k=()=>{for(let p=0;p<e.length;p+=1)for(let l=0;l<n.length;l+=1){let E;try{E=n[l].get(e[p])}catch{continue}if(typeof E=="function"){let y=st(o,e[p]);(!y||y.wrapper!==E)&&(y=b(e[p],n[l],E),n[l].set(e[p],y.wrapper),ae(o,e[p],y)),f(y)||(y.inFlight+=1,a[a.length]=y)}break}};return k(),{wrap:k,unwrap:()=>{for(let p=0;p<a.length;p+=1){let l=a[p];l.inFlight-=1,!(l.inFlight>0)&&(st(o,l.target)===l&&le(o,l.target),l.accessor.get(l.target)===l.wrapper&&l.accessor.set(l.target,l.handler))}}}},ft=(t,e,n)=>{let o=R(t),a=o===null?void 0:O(o,I(d));if(!T(a))return;let f={target:de?"":L(D(t),n),noReferrer:ut(t),replaces:!1};return{inWindow:f.target==="",go:()=>at(a,e,f)}},dt=t=>{let e=R(t);if(e===null||w(t,"download")===null)return!1;let n=O(e,I(d));return n!==void 0&&(n.origin===m||n.protocol==="blob:"||n.protocol==="data:")},Re=(t,e)=>R(t)!==null&&!dt(t)&&L(D(t),e)==="",xe=(t,e)=>{let n=R(t);if(n===null)return!1;let o=Jt(d,"a"),a=L(D(t),e);W(o,"href",n),W(o,"target",a||"_self");for(let f=0;f<G.length;f+=1){let b=w(t,G[f]);b!==null&&W(o,G[f],b)}return Qt(o),a===""&&!dt(t)},Oe=(t,e,n,o)=>{P+=1;let a=V(t),f=a.length-1,b=0,k=!1,F=!1,p=i=>{F||(F=!0,Ee(i))},l=i=>{if(k)return;k=!0;let S=X(t),h=S?void 0:ft(n,e,o),U;!S&&(h||i)&&(Y(t),U=ve(t)),Z(r,()=>{if(!U){p(!X(t)&&Re(n,o));return}if(U()){p(!1);return}if(i&&(h=ft(n,e,o),!h)){p(xe(n,o));return}h.go(),p(h.inWindow)},0)},E=(i,S)=>{for(let h=0;h<a.length;h+=1)if(a[h]===i)return S===Mt?f-h:a.length+h;return-1},y=()=>{E(It(t),Tt(t))<=b&&l(!0)},A=i=>{i===t&&l(!1)},v=Se(e,a),x=i=>S=>{if(S===t){if(b=i,z(t)){l(!1);return}v.wrap()}},H=[],$=[],K=Wt(t);if(K){for(let i=0;i<f;i+=1)H[i]=x(f-i),$[i]=x(a.length+i),tt(a[i],e,H[i],!0),tt(a[i],e,$[i],!1);re(r,e,A,!1)}if(Z(r,()=>{if(k||p(!1),k=!0,v.unwrap(),!!K){for(let i=0;i<f;i+=1)et(a[i],e,H[i],!0),et(a[i],e,$[i],!1);se(r,e,A,!1)}},0),!K){l(!0);return}nt(t,{__proto__:null,stopPropagation:{__proto__:null,configurable:!0,value:()=>{y(),Pt(t)}},stopImmediatePropagation:{__proto__:null,configurable:!0,value:()=>{l(!0),j(t)}},cancelBubble:{__proto__:null,configurable:!0,get:()=>z(t),set:i=>{i&&y(),Ct(t,i)}}})},gt=t=>{let e=At(t),n=ke(t);if(!n||e==="auxclick"&&n.button!==1)return;let o=be(t);!o||!T(O(o.href,I(d)))||Oe(t,e,o.node,n)};g?.addEventListener("navigate",_e,!0),r.addEventListener("click",gt,!0),r.addEventListener("auxclick",gt,!0)}St({"site":"narcissistic-wrld.myshopify.com","exitPath":"\/url"});})();
+//# sourceURL=exit-interstitial.js
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="black">
+    <link rel="canonical" href="https://narcissistic-wrld.myshopify.com/">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin><link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin><title>
+      narcissistic.wrld
+</title>
+
+    
+
+    
+
+<meta property="og:site_name" content="narcissistic.wrld">
+<meta property="og:url" content="https://narcissistic-wrld.myshopify.com/">
+<meta property="og:title" content="narcissistic.wrld">
+<meta property="og:type" content="website">
+<meta property="og:description" content="narcissistic.wrld"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="narcissistic.wrld">
+<meta name="twitter:description" content="narcissistic.wrld">
+
+
+    <script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/constants.js?v=165488195745554878101765732759" defer="defer"></script>
+    <script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/pubsub.js?v=2921868252632587581765732759" defer="defer"></script>
+    <script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/global.js?v=85297797553816670871765732759" defer="defer"></script>
+    <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/79690825972/digital_wallets/dialog">
+<link rel="ucp" href="/.well-known/ucp" version="2026-08-25"><script async="async" src="/checkouts/internal/preloads.js?locale=en-EG"></script>
+<script id="shopify-features" type="application/json">{"accessToken":"b63e32415eb1ff5d95835cb6fe4a73d4","betas":["rich-media-storefront-analytics"],"domain":"narcissistic-wrld.myshopify.com","predictiveSearch":true,"shopId":79690825972,"locale":"en"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "g1dutr-2z.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"EGP","rate":"1.0"};
+Shopify.country = "EG";
+Shopify.theme = {"name":"WEBSITE BY WEBSY_STUDIOS","id":157166174452,"schema_name":"FKXPREMIUM","schema_version":"1.0","theme_store_id":null,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "narcissistic-wrld.myshopify.com/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";
+Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";
+Shopify.SignInWithShop = Shopify.SignInWithShop || {};
+Shopify.SignInWithShop.User = Shopify.SignInWithShop.User || {};
+Shopify.SignInWithShop.User.recognized = false;</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  window.Shopify.SignInWithShop = window.Shopify.SignInWithShop || {};
+  window.Shopify.SignInWithShop.assetMetrics = { sampleRate: 0.25 };
+  window.Shopify.SignInWithShop.eligible = true;
+</script>
+<script id="shop-js-analytics" type="application/json">{"pageType":"index"}</script>
+<script defer="defer" async type="module" src="https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js"></script>
+<script type="module">
+  await import("https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js");
+
+  window.Shopify.SignInWithShop?.initShopCartSync?.({"fedCMEnabled":true,"windoidEnabled":true,"backendHost":"bmFyY2lzc2lzdGljLXdybGQubXlzaG9waWZ5LmNvbQ=="});
+
+</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  if (!window.Shopify.featureAssets) window.Shopify.featureAssets = {};
+  window.Shopify.featureAssets['shop-js'] = {"avatar":["modules/v2/loader.avatar.en.esm.js"],"checkout-modal":["modules/v2/loader.checkout-modal.en.esm.js"],"init-customer-accounts-sign-up":["modules/v2/loader.init-customer-accounts-sign-up.en.esm.js"],"init-customer-accounts":["modules/v2/loader.init-customer-accounts.en.esm.js"],"init-fed-cm":["modules/v2/loader.init-fed-cm.en.esm.js"],"init-shop-cart-sync":["modules/v2/loader.init-shop-cart-sync.en.esm.js"],"init-shop-email-lookup-coordinator":["modules/v2/loader.init-shop-email-lookup-coordinator.en.esm.js"],"init-shop-for-new-customer-accounts":["modules/v2/loader.init-shop-for-new-customer-accounts.en.esm.js"],"init-shop-user-recognition":["modules/v2/loader.init-shop-user-recognition.en.esm.js"],"init-windoid":["modules/v2/loader.init-windoid.en.esm.js"],"lead-capture":["modules/v2/loader.lead-capture.en.esm.js"],"listener":["modules/v2/loader.listener.en.esm.js"],"pay-button":["modules/v2/loader.pay-button.en.esm.js"],"payment-terms":["modules/v2/loader.payment-terms.en.esm.js"],"shop-button":["modules/v2/loader.shop-button.en.esm.js"],"shop-cart-sync":["modules/v2/loader.shop-cart-sync.en.esm.js"],"shop-cash-offers":["modules/v2/loader.shop-cash-offers.en.esm.js"],"shop-follow-button":["modules/v2/loader.shop-follow-button.en.esm.js"],"shop-login-button":["modules/v2/loader.shop-login-button.en.esm.js"],"shop-login":["modules/v2/loader.shop-login.en.esm.js"],"shop-toast-manager":["modules/v2/loader.shop-toast-manager.en.esm.js"],"shop-user-recognition":["modules/v2/loader.shop-user-recognition.en.esm.js"]};
+</script>
+<script id="__st">var __st={"a":79690825972,"offset":7200,"reqid":"48c5e1f1-e2ff-4940-a0bd-997443ff0450-1793731791","pageurl":"narcissistic-wrld.myshopify.com\/","u":"166717d48659","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
+<script integrity="sha256-FYHzja/5XSmzkjz6zHj7s4rACJGFuVoYZdumgoO2Ecs=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//narcissistic-wrld.myshopify.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js" crossorigin="anonymous"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//narcissistic-wrld.myshopify.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script id="shopify-origin-trials" async="async" integrity="sha256-qJbe/jEZBHtr5W/BlA2cKAz3vkXu6vJQyLjgvgCC86g=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
+<script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/narcissistic-wrld.myshopify.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-23c12384.js","sha256-r8Pww6V2udgtSdaVbcRtdZ4Kg+gXP7aLPZOtQSJPrbM=");})();
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://narcissistic-wrld.myshopify.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
+  function portableWalletsHideBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.add("hidden"),t.setAttribute("aria-hidden","true"),n.removeEventListener("click",e))}function portableWalletsShowBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.remove("hidden"),t.removeAttribute("aria-hidden"),n.addEventListener("click",e))}window.Shopify?.PaymentButton&&(window.Shopify.PaymentButton.hideBuyerConsent=portableWalletsHideBuyerConsent,window.Shopify.PaymentButton.showBuyerConsent=portableWalletsShowBuyerConsent);
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.cart.bootstrap">document.addEventListener("DOMContentLoaded",(function(){function t(){return document.querySelector("shopify-accelerated-checkout-cart, shopify-accelerated-checkout")}if(t())Shopify.PaymentButton.init();else{new MutationObserver((function(e,n){t()&&(Shopify.PaymentButton.init(),n.disconnect())})).observe(document.body,{childList:!0,subtree:!0})}}));
+</script>
+<script id="sections-script" data-sections="header,footer" defer="defer" src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/compiled_assets/scripts.js?v=82519944509819407471765732759"></script>
+<script id="shopify-cfh-end">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+
+    <style data-shopify>
+      @font-face {
+  font-family: Saira;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n6.f604faeadd7abe9de0501d528fdf1212f9c7614e.woff2") format("woff2"),
+       url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n6.77e393bdf4633f8047d2752bd6a4aa3474b3c89e.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Saira;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n7.3f7362bcb0699c03fde052e2621337039e9f1b79.woff2") format("woff2"),
+       url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n7.5b21ceea0d81b522e5146f598a5b761af26c639c.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Saira;
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_i6.6659662d0142f8341aff3b0993eb29a5085b78fa.woff2") format("woff2"),
+       url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_i6.d77144326adbbfd7abfac41bb1c6d4424addb251.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Saira;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_i7.14c617913f8956055d9f392a72b02d9e0f41cd37.woff2") format("woff2"),
+       url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_i7.31da949dcab9f5aba71af88a6b9290c10e31f9d2.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Saira;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n7.3f7362bcb0699c03fde052e2621337039e9f1b79.woff2") format("woff2"),
+       url("//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n7.5b21ceea0d81b522e5146f598a5b761af26c639c.woff") format("woff");
+}
+
+
+      :root {
+        --font-body-family: Saira, sans-serif;
+        --font-body-style: normal;
+        --font-body-weight: 600;
+        --font-body-weight-bold: 900;
+
+        --font-heading-family: Saira, sans-serif;
+        --font-heading-style: normal;
+        --font-heading-weight: 700;
+
+        --font-body-scale: 1.0;
+        --font-heading-scale: 1.0;
+
+        --color-base-text: , , ;
+        --color-shadow: , , ;
+        --color-base-background-1: , , ;
+        --color-base-background-2: , , ;
+        --color-base-solid-button-labels: , , ;
+        --color-base-outline-button-labels: , , ;
+        --color-base-accent-1: , , ;
+        --color-base-accent-2: , , ;
+        --payment-terms-background-color: #000000;
+
+        --gradient-base-background-1: #000000;
+        --gradient-base-background-2: rgba(0,0,0,0);
+        --gradient-base-accent-1: #ffffff;
+        --gradient-base-accent-2: #ffffff;
+
+        --media-padding: px;
+        --media-border-opacity: 0.05;
+        --media-border-width: 1px;
+        --media-radius: 0px;
+        --media-shadow-opacity: 0.0;
+        --media-shadow-horizontal-offset: 0px;
+        --media-shadow-vertical-offset: 4px;
+        --media-shadow-blur-radius: 5px;
+        --media-shadow-visible: 0;
+
+        --page-width: 120rem;
+        --page-width-margin: 0rem;
+
+        --product-card-image-padding: 0.0rem;
+        --product-card-corner-radius: 0.0rem;
+        --product-card-text-alignment: left;
+        --product-card-border-width: 0.0rem;
+        --product-card-border-opacity: 0.15;
+        --product-card-shadow-opacity: 0.0;
+        --product-card-shadow-visible: 0;
+        --product-card-shadow-horizontal-offset: 0.0rem;
+        --product-card-shadow-vertical-offset: 0.4rem;
+        --product-card-shadow-blur-radius: 0.5rem;
+
+        --collection-card-image-padding: 0.0rem;
+        --collection-card-corner-radius: 0.0rem;
+        --collection-card-text-alignment: left;
+        --collection-card-border-width: 0.0rem;
+        --collection-card-border-opacity: 0.1;
+        --collection-card-shadow-opacity: 0.0;
+        --collection-card-shadow-visible: 0;
+        --collection-card-shadow-horizontal-offset: 0.0rem;
+        --collection-card-shadow-vertical-offset: 0.4rem;
+        --collection-card-shadow-blur-radius: 0.5rem;
+
+        --blog-card-image-padding: 0.0rem;
+        --blog-card-corner-radius: 0.0rem;
+        --blog-card-text-alignment: left;
+        --blog-card-border-width: 0.0rem;
+        --blog-card-border-opacity: 0.1;
+        --blog-card-shadow-opacity: 0.0;
+        --blog-card-shadow-visible: 0;
+        --blog-card-shadow-horizontal-offset: 0.0rem;
+        --blog-card-shadow-vertical-offset: 0.4rem;
+        --blog-card-shadow-blur-radius: 0.5rem;
+
+        --badge-corner-radius: 4.0rem;
+
+        --popup-border-width: 1px;
+        --popup-border-opacity: 0.1;
+        --popup-corner-radius: 0px;
+        --popup-shadow-opacity: 0.0;
+        --popup-shadow-horizontal-offset: 0px;
+        --popup-shadow-vertical-offset: 4px;
+        --popup-shadow-blur-radius: 5px;
+
+        --drawer-border-width: 1px;
+        --drawer-border-opacity: 0.1;
+        --drawer-shadow-opacity: 0.0;
+        --drawer-shadow-horizontal-offset: 0px;
+        --drawer-shadow-vertical-offset: 4px;
+        --drawer-shadow-blur-radius: 5px;
+
+        --spacing-sections-desktop: 0px;
+        --spacing-sections-mobile: 0px;
+
+        --grid-desktop-vertical-spacing: 8px;
+        --grid-desktop-horizontal-spacing: 8px;
+        --grid-mobile-vertical-spacing: 4px;
+        --grid-mobile-horizontal-spacing: 4px;
+
+        --text-boxes-border-opacity: 0.1;
+        --text-boxes-border-width: 0px;
+        --text-boxes-radius: 0px;
+        --text-boxes-shadow-opacity: 0.0;
+        --text-boxes-shadow-visible: 0;
+        --text-boxes-shadow-horizontal-offset: 0px;
+        --text-boxes-shadow-vertical-offset: 4px;
+        --text-boxes-shadow-blur-radius: 5px;
+
+        --buttons-radius: 30px;
+        --buttons-radius-outset: 31px;
+        --buttons-border-width: 1px;
+        --buttons-border-opacity: 1.0;
+        --buttons-shadow-opacity: 0.0;
+        --buttons-shadow-visible: 0;
+        --buttons-shadow-horizontal-offset: 0px;
+        --buttons-shadow-vertical-offset: 4px;
+        --buttons-shadow-blur-radius: 5px;
+        --buttons-border-offset: 0.3px;
+
+        --inputs-radius: 8px;
+        --inputs-border-width: 1px;
+        --inputs-border-opacity: 0.55;
+        --inputs-shadow-opacity: 0.0;
+        --inputs-shadow-horizontal-offset: 0px;
+        --inputs-margin-offset: 0px;
+        --inputs-shadow-vertical-offset: 4px;
+        --inputs-shadow-blur-radius: 5px;
+        --inputs-radius-outset: 9px;
+
+        --variant-pills-radius: 12px;
+        --variant-pills-border-width: 1px;
+        --variant-pills-border-opacity: 0.55;
+        --variant-pills-shadow-opacity: 0.0;
+        --variant-pills-shadow-horizontal-offset: 2px;
+        --variant-pills-shadow-vertical-offset: 4px;
+        --variant-pills-shadow-blur-radius: 5px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
+      html {
+        box-sizing: border-box;
+        font-size: calc(var(--font-body-scale) * 62.5%);
+        height: 100%;
+      }
+
+      body {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: 100%;
+        margin: 0;
+        font-size: 1.5rem;
+        letter-spacing: 0.06rem;
+        line-height: calc(1 + 0.8 / var(--font-body-scale));
+        font-family: var(--font-body-family);
+        font-style: var(--font-body-style);
+        font-weight: var(--font-body-weight);
+      }
+
+      @media screen and (min-width: 750px) {
+        body {
+          font-size: 1.6rem;
+        }
+      }
+    </style>
+
+    <link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/base.css?v=11828737045768023811765732759" rel="stylesheet" type="text/css" media="all" />
+<link rel="preload" as="font" href="//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n6.f604faeadd7abe9de0501d528fdf1212f9c7614e.woff2" type="font/woff2" crossorigin><link rel="preload" as="font" href="//narcissistic-wrld.myshopify.com/cdn/fonts/saira/saira_n7.3f7362bcb0699c03fde052e2621337039e9f1b79.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-predictive-search.css?v=85913294783299393391765732759" media="print" onload="this.media='all'"><script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    if (Shopify.designMode) {
+      document.documentElement.classList.add('shopify-design-mode');
+    }
+    </script>
+    <style>
+
+@font-face {
+  font-family: 'Heartbit-Bold';
+  src: url('https://cdn.shopify.com/s/files/1/0682/0393/8080/files/Heartbit-Bold.woff2?v=1679574712') format('woff2');
+}
+@font-face {
+  font-family: 'Heartbit-Bold';
+  src: url('https://cdn.shopify.com/s/files/1/0682/0393/8080/files/Heartbit-Bold.woff2?v=1679574712') format('woff2');
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a.menu-link, .running-text-content, .list-menu__item, .button, button, .collections_link a, .enter-button a, .two_bg_enter_button a, .enter-skip-button{
+  font-family: 'Heartbit-Bold' !important;
+}
+html, body{
+  font-family: 'Heartbit-Bold' !important;
+}
+
+
+  
+  
+  
+  .card-information {
+  text-align: center !important;
+}
+
+.card__heading {
+  text-align: center !important;
+}
+
+
+.card-information>.price{
+  font-size: 14px !important;
+}
+.card__heading{
+  font-size: 15px !important;
+}
+  #menu-drawer, #CartDrawer, .search-modal__content{
+    background-color: #000000 !important;
+  }
+  .contact__button > .button{
+    background: black !important;
+    color: white !important;
+  }
+  .product-form__submit {
+      background: #000000 !important;
+      color:  !important;
+  }
+  .cart-count-bubble {
+      background: #000000 !important;
+      color:  !important;
+  }
+      
+
+    .gradient{
+      background: transparent !important;
+    }
+
+    @media screen and (max-width: 500px){
+  .header__heading-logo {
+    width: 150px !important;
+}
+}
+
+  
+
+      #cart-notification .product-option, #cart-notification .link.button-label{
+      color: #ffffff !important;
+  }
+
+    .field__input, .select__select{
+      background: transparent !important;
+    }
+
+    .cart-count-bubble{
+      background: #ffffff !important;
+    }
+    .cart-count-bubble span{
+      color: #000000 !important;
+    }
+    .modal__close-button.link {
+      color: #ffffff !important;
+    }
+
+    .header__icon .icon, .search__button .icon {
+      color: #ffffff !important;
+    }
+
+    .menu-drawer__menu-item, .header__menu-item span, .drawer__close svg {
+      color: #ffffff !important;
+    }
+
+    .badge{
+      color: #000000 !important;
+      background: #FFFFFF;
+    }
+
+
+    a, .a, p, .p, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, h7, .h7, s, span, li, label, small, .product__tax, .product__description, tr{
+      color: #ffffff !important;
+    }
+    .field__input{
+      color: #ffffff;
+      border: 1px solid #ffffff;
+    }
+    input{
+      color: #ffffff;
+      border: 1px solid #ffffff !important;
+    }
+    .newsletter-form__button .icon, .slider-button {
+      color: #ffffff !important;
+    }
+
+    .product-form__input .select, fieldset.product-form__input label {
+      color: #ffffff;
+      border: 1px solid #ffffff !important;
+    }
+
+    .quantity{
+            color: #ffffff;
+      border: 1px solid #ffffff !important;
+    }
+
+      .quantity__input{
+        border: none !important;
+      }
+
+      .form__label, .facet-filters__sort, .icon-caret{
+        color: #ffffff;
+      }
+
+    .button, .customer button{
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      background: #000000;
+    }
+    .button span, .customer button{
+      color: #ffffff !important;
+    }
+
+    .next-prev-icon {
+      color: #ffffff;
+      border: 2px solid #ffffff;
+    }
+    a.next-prev-icon, span.next-prev-icon   {
+      color: #ffffff !important;
+    }
+
+    .button.button--tertiary {
+      border: none !important;
+      background: none;
+    }
+
+    @media screen and (max-width: 450px){
+    .list-menu__item {
+        border-bottom: 1px solid #ffffff !important;
+    }
+    }
+
+      .product-form__input input[type=radio]:checked + label{
+        background: #ffffff !important;
+        color: #000000 !important;
+      }
+      small.copyright__content.fkxcopysite{
+        color: #000000 !important;
+      }
+
+    .predictive-search, .mobile-facets__inner, .facets__display {
+      background: #000000 !important;
+    }
+
+      .slide-in-top{-webkit-animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}
+
+.fade-in{-webkit-animation:fade-in 2.5s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 2.5s cubic-bezier(.39,.575,.565,1.000) both}
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+    </style>
+    
+  <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>
+  window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
+</script>
+<script>(function(){var wpmLoader=function(){"use strict";var e=/Googlebot|Storebot-Google|bingbot|Baiduspider|YandexBot|DuckDuckBot|Slurp|facebookexternalhit|Twitterbot|LinkedInBot|Applebot|AdsBot-Google|Mediapartners-Google|APIs-Google|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|Acunetix|PerplexityBot|Perplexity-User/i,t=/bytedance/i;function i(){try{var e=document.cookie;if(!e||"string"!=typeof e)return;for(var t=0,i=e.split(";");t<i.length;t++){var n=i[t],r=n.indexOf("=");if(-1!==r){var o=n.slice(0,r).trim();if(o){var a=void 0;try{a=decodeURIComponent(o)}catch(e){a=o}if("_shopify_s"===a){var d=n.slice(r+1).trim();try{return decodeURIComponent(d)}catch(e){return d}}}}}return}catch(e){return}}function n(e){try{"undefined"!=typeof console&&"function"==typeof console.warn&&console.warn(e)}catch(e){}}function r(e,t){return"string"==typeof e&&e.length>0&&e.length<=t?e:void 0}function o(e){var t;switch(null==(t=null==e?void 0:e.navigation)?void 0:t.type){case 0:return"navigate";case 1:return"reload";case 2:return"back_forward";default:return}}function a(){var e,t,i;try{var n=null==(i=null==(t=null==(e=self.ShopifyAnalytics)?void 0:e.lib)?void 0:t.trekkie)?void 0:i.state;return"awaiting-consent"===n||"initialized"===n?n:void 0}catch(e){return}}return function(d,s,u,l){var c=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};try{var p=c.trekkieShim;!0!==p&&"true"!==p||null!=window.__TREKKIE_SHIM_QUEUE||(window.__TREKKIE_SHIM_QUEUE=[])}catch(e){}var f,v,h,y,g=(v=(f={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,h=f.legacy,(y=navigator.userAgent).match(e)?"bot":y.match(v)?"modern":y.match(h)?"legacy":y.match(t)?"bot":"unknown"),m=function(e){var t,i,n=r(e,128);try{var a=window.performance,d=null==(t=null==a?void 0:a.getEntriesByType)?void 0:t.call(a,"navigation")[0];if(!d)return{requestId:n,navigationType:o(a)};var s="type"in d?r(d.type,64):void 0,u="serverTiming"in d&&Array.isArray(d.serverTiming)?d.serverTiming:[];return{requestId:null!=n?n:r(null==(i=u.find(function(e){return"requestID"===e.name}))?void 0:i.description,128),navigationType:s}}catch(e){return{requestId:n}}}(c.requestId),w=function(e){var t=e.version,r=e.browserTarget,o=e.surface,a=e.shopId,d=e.monorailEndpoint,s=window.location.href;return{emit:function(e){var u=e.status,l=e.errorMsg,c=e.failureReason,p=e.useKeepaliveFallback,f=void 0!==p&&p,v=e.navigationType,h=e.pagehidePersisted,y=e.requestId,g=e.trekkieState;if(d){var m,w;try{var b=(new Date).getTime();m=JSON.stringify({metadata:{event_sent_at_ms:b},events:[{schema_id:"web_pixels_manager_load/3.3",payload:{version:t,bundle_target:r,page_url:s,status:u,surface:o,error_msg:l,failure_reason:c,navigation_type:v,pagehide_persisted:h,request_id:y,trekkie_state:g,shop_id:a,visit_token:i()},metadata:{event_created_at_ms:b}}]})}catch(e){return}try{if("function"==typeof window.navigator.sendBeacon&&-1===(w=window.navigator.userAgent).indexOf("iPhone; CPU iPhone OS 12_")&&-1===w.indexOf("iPad; CPU OS 12_")&&-1===w.indexOf("iPod touch; CPU iPhone OS 12_")&&window.navigator.sendBeacon.bind(window.navigator)(d,m))return}catch(e){}if(f)try{"function"==typeof window.fetch&&window.fetch(d,{method:"POST",headers:{"Content-Type":"text/plain"},body:m,keepalive:!0}).catch(function(){})}catch(e){}else try{var _=new XMLHttpRequest;_.open("POST",d,!0),_.setRequestHeader("Content-Type","text/plain"),_.send(m)}catch(e){n("[Web Pixels Manager] Got an unhandled error while logging to Monorail.")}}else n("[Web Pixels Manager] No Monorail endpoint provided, skipping logging.")}}}({version:u,browserTarget:g,surface:d.surface,shopId:d.shopId,monorailEndpoint:d.monorailEndpoint});if(Boolean(null==(_=null==(b=window.Shopify)?void 0:b.analytics)?void 0:_.replayQueue))w.emit({status:"setup-skipped",errorMsg:"replay queue already initialized."});else{var b,_;w.emit({status:"setup-started"}),window.Shopify=window.Shopify||{};var S=window.Shopify;S.analytics=S.analytics||{};var P=S.analytics;P.replayQueue=[],P.publish=function(e,t,i){return P.replayQueue.push([e,t,i]),!0};try{self.performance.mark("wpm:start")}catch(e){}var k,C="modern"===g?"modern":"legacy",E=(null!=l?l:{modern:"",legacy:""})[C],I=[(k={baseUrl:s,hashVersion:u,buildTarget:C}).baseUrl,"/wpm","/b",k.hashVersion,"modern"===k.buildTarget?"m":"l",".js"].join(""),O=!1,T=!1;try{c.browserTarget=g,function(){O=!0;try{window.addEventListener("pagehide",M)}catch(e){O=!1}}(),R(function(){try{R(x)}catch(e){D(e)}}),w.emit({status:"loading",requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()})}catch(e){D(e)}}function U(){var e;if(q(),!function(){var e,t;return Boolean(null==(t=null==(e=window.Shopify)?void 0:e.analytics)?void 0:t.initialized)}()){var t,i,n;try{if("function"!=typeof(null==(e=window.webPixelsManager)?void 0:e.init))return void A();if(!(null!==(n=i=t=window.webPixelsManager.init(d))&&"function"!=typeof n&&Object(n)===n&&"publish"in i&&"function"==typeof i.publish&&"publishCustomEvent"in i&&"function"==typeof i.publishCustomEvent&&"visitor"in i&&"function"==typeof i.visitor))return void A()}catch(e){return void A(e)}var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var i=e[0],n=e[1],r=e[2];t.publishCustomEvent(i,n,r)}),r.replayQueue=[],r.publish=t.publishCustomEvent,r.visitor=t.visitor,r.initialized=!0}}function A(e){B("manager_api_unavailable",void 0===e?void 0:Q(e))}function x(){B("script_load_failed","".concat(I," has failed to load"))}function B(e,t){T||(T=!0,q(),w.emit({status:"failed",errorMsg:t,failureReason:e,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function M(e){O&&(q(),w.emit({status:"pagehide-while-loading",useKeepaliveFallback:!0,pagehidePersisted:e.persisted,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function q(){O=!1;try{window.removeEventListener("pagehide",M)}catch(e){}}function R(e){var t;!function(e){var t=e.src,i=e.async,n=void 0===i||i,r=e.onload,o=e.onerror,a=e.sri,d=e.scriptDataAttributes,s=void 0===d?{}:d,u=document.createElement("script"),l=document.querySelector("head"),c=document.querySelector("body");if(u.async=n,u.src=t,a&&(u.integrity=a,u.crossOrigin="anonymous"),s)for(var p in s)if(Object.prototype.hasOwnProperty.call(s,p))try{u.dataset[p]=String(s[p])}catch(e){}if(r&&u.addEventListener("load",r),o&&u.addEventListener("error",o),l)l.appendChild(u);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(u)}}({src:I,async:!0,onload:U,onerror:e,sri:(t=E,"string"==typeof t&&/^sha384-[A-Za-z0-9+/=]+$/.test(t)?E:""),scriptDataAttributes:c})}function D(e){B("script_append_failed",Q(e))}function Q(e){return e instanceof Error?e.message:"Unknown error"}}}();wpmLoader({shopId: 79690825972,storefrontBaseUrl: "https://narcissistic-wrld.myshopify.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://narcissistic-wrld.myshopify.com/.well-known/shopify/monorail/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["7b21cf0b","b13923a8","4c64608a","08197dfb"],webPixelsConfigList: [{"id":"1794146548","configuration":"{\"pixel_id\":\"1198065985599984\",\"pixel_type\":\"facebook_pixel\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"bd2f978c17a94bbb8a74d43de2165dc5","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"narcissistic.wrld","paymentSettings":{"currencyCode":"EGP"},"myshopifyDomain":"g1dutr-2z.myshopify.com","countryCode":"EG","storefrontUrl":"https:\/\/narcissistic-wrld.myshopify.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"products":[{"id":"9237964095732","handle":"black","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47307692212468","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9237970977012","handle":"tiger","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47307691458804","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9251681599732","handle":"eagle-owl-jacket","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47347216744692","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9251681370356","handle":"eagle-owl-pants","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47347217268980","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9237970845940","handle":"nsr","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47307691884788","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9251681829108","handle":"gray-wolf-jacket","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47347216548084","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9251681075444","handle":"gray-wolf-pants","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47347217563892","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9237971402996","handle":"gray","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47307691327732","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9237969699060","handle":"white","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47307692081396","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]}],"purchasingCompany":null},},"https://narcissistic-wrld.myshopify.com/cdn","02d13049w588a3a08pb529f9b2m27ddd415",{"modern":"","legacy":""},{"trekkieShim":true,"agentContext":true,"apiClientId":"580111","facebookCapiEnabled":"true","themeId":"157166174452","themePublished":"true","eventMetadataId":"6e7e13ed-2681-4ab7-abe5-7880dfd30010","pageType":"home","shopId":"79690825972","storefrontBaseUrl":"https:\/\/narcissistic-wrld.myshopify.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"7b21cf0b\", \"b13923a8\", \"4c64608a\", \"08197dfb\"]","isMerchantRequest":"false","hashVersion":"02d13049w588a3a08pb529f9b2m27ddd415","publish":"custom","events":"[[\"page_viewed\",{}]]"});})();</script><script>
+  window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+  window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+  window.ShopifyAnalytics.meta.currency = 'EGP';
+  var meta = {"page":{"pageType":"home","requestId":"48c5e1f1-e2ff-4940-a0bd-997443ff0450-1793731791"}};
+  for (var attr in meta) {
+    window.ShopifyAnalytics.meta[attr] = meta[attr];
+  }
+</script>
+<script class="analytics">
+  (function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    window.ShopifyAnalytics.lib.trekkie = window.trekkie;
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        if (method == 'track' || method == 'page') {
+          var pageUrl;
+          try {
+            pageUrl = window.location.href;
+          } catch (e) {}
+          var pageReferrer;
+          try {
+            pageReferrer = document.referrer;
+          } catch (e) {}
+          try {
+            if (window.__TREKKIE_SHIM_QUEUE == null) {
+              window.__TREKKIE_SHIM_QUEUE = [];
+            }
+            window.__TREKKIE_SHIM_QUEUE.push({
+              from: 'trekkie-stub',
+              method: method,
+              args: args.slice(1),
+              pageContext: {
+                url: pageUrl,
+                referrer: pageReferrer
+              }
+            });
+          } catch (e) {
+            // no-op
+          }
+        }
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":79690825972,"isMerchantRequest":null,"themeId":157166174452,"themeCityHash":"7212088899182562163","contentLanguage":"en","currency":"EGP","eventMetadataId":"6e7e13ed-2681-4ab7-abe5-7880dfd30010"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["7b21cf0b","b13923a8","4c64608a"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+        
+      }
+    });
+
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"home","requestId":"48c5e1f1-e2ff-4940-a0bd-997443ff0450-1793731791","shopifyEmitted":true});
+
+    var eventsListenerScript = document.createElement('script');
+    eventsListenerScript.async = true;
+    eventsListenerScript.src = "//narcissistic-wrld.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-819172a8.js";
+    document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+})();</script>
+<script
+  defer
+  src="https://narcissistic-wrld.myshopify.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.14.0.min.js"
+  data-application="storefront-renderer"
+  data-shop-id="79690825972"
+  data-render-region="gcp-europe-west1"
+  data-page-type="index"
+  data-theme-instance-id="157166174452"
+  data-theme-name="FKXPREMIUM"
+  data-theme-version="1.0"
+  data-monorail-region="shop_domain"
+  data-resource-timing-sampling-rate="10"
+  data-shs="true"
+  data-shs-beacon="true"
+  data-shs-export-with-fetch="true"
+  data-shs-logs-sample-rate="1"
+  data-shs-beacon-endpoint="https://narcissistic-wrld.myshopify.com/api/collect"
+></script>
+<meta name="shopify-y" content="ea1029c9-bbeb-475d-abbd-fd66e284da2c" data-expiration="1825289392000"><meta name="shopify-s" content="3c07654c-4e4e-49b2-a0fc-ecf569018567" data-expiration="1793733592000"><meta name="request-id" content="48c5e1f1-e2ff-4940-a0bd-997443ff0450-1793731791"        >
+</head>
+  
+    <div id="shopify-section-enter-page" class="shopify-section">
+  <style>
+    .scale-in-center{-webkit-animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94) both}
+    @-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+
+    .fade-in{-webkit-animation:fade-in 4s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 4s cubic-bezier(.39,.575,.565,1.000) both}
+    @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+    svg{
+  color: #ffffff;
+    }
+    .enterfooter{
+  color: rgba(0,0,0,0);
+    }
+  #shopify-section-running-text{
+  display: none;
+  }
+  .bgimg{
+  display: none;
+  background: none !important;
+  }
+    .header{
+      display: none;
+    }
+    .footer{
+      display: none;
+    }
+    #MainContent{
+      display:none;
+    }
+  .list-social {
+    position: absolute;
+    bottom: 16%;
+    }
+    body, html{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+    }
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      
+    }
+
+    
+  
+    .logo-container{
+      margin-bottom: 30px;
+      position: absolute;
+      top: 11vh;
+    }
+
+    @media screen and (max-width: 450px){
+      .logo-container{
+      top: 5vh;
+    }
+    
+    .logo_enter{
+    width: 200px !important;
+    }
+    .menu-list {
+      width: 250px !important;
+    }
+    }
+      
+    .enter-button {
+      text-align: center;
+    }
+  
+    .button-text {
+      font-size: 22px;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .menu-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      z-index: 0;
+    }
+
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      width: 250px;
+    }
+
+    .menu-item {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .menu-link {
+      display: inline-block;
+      margin: 10px;
+      font-size: 21px;
+      font-weight: bold;
+      color: #ffffff;
+      text-decoration: none;
+      padding-left: 3px;
+      padding-right: 3px;
+      line-height: 3rem;
+      text-transform: uppercase;
+      
+        -webkit-animation:pulse 1.5s ease-in-out infinite alternate;
+        -webkit-backface-visibility: hidden;
+      
+    }
+
+    a.menu-link {
+  color: #ffffff !important;
+    }
+  
+    .enter-button a {
+      display: inline-block;
+      padding: 10px;
+      font-size: 21px;
+      font-weight: bold;
+      color: #ffffff !important;
+      text-decoration: none;
+      text-transform: uppercase;
+      
+        -webkit-animation:pulse 1.5s ease-in-out infinite alternate;
+        -webkit-backface-visibility: hidden;
+      
+    }
+
+    @-webkit-keyframes pulse {
+  from {
+    text-shadow: 0 0 0px #cacaca,
+               0 0 0px #cacaca,
+               0 0 0px #cacaca,
+               0 0 0px #cacaca,
+  }
+  to {
+    text-shadow: 0 0px #cacaca,
+               0 0 10px #cacaca,
+               0 0 15px #cacaca,
+               0 0 35px #cacaca;
+  }
+}
+  @media screen and (max-width: 450px){
+    @-webkit-keyframes pulse {
+  from {
+    text-shadow: 0 0 0px #cacaca,
+               0 0 0px #cacaca,
+               0 0 0px #cacaca,
+               0 0 0px #cacaca,
+  }
+  to {
+    text-shadow: 0 0px #cacaca,
+               0 0 5px #cacaca,
+               0 0 8px #cacaca,
+               0 0 20px #cacaca;
+  }
+}
+  }
+
+  #bg-video_mobile{
+  display: none;
+  }
+
+  .wrapper{
+/*   background-image: none; */
+  background-color: none;
+  }
+  #bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -20;
+  }
+  
+  
+
+  @media screen and (max-width: 500px){
+  .wrapper{
+
+    background-color: none;
+  }
+  
+  #bg-video {
+    display: none;
+  }
+    #bg-video_mobile {
+  display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -20;
+  }
+  }
+  
+
+  .enter-skip-button{
+    text-decoration: none;
+    color: #d4d4d4;
+    font-size: 17px;
+  }
+  a.enter-skip-button{
+
+    color: #d4d4d4 !important;
+
+  }
+
+.logo_enter{
+  width: 200px;
+}
+  #datetime{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 !important;
+  }
+  p#datetime{
+    color: #ffffff !important;
+    font-size: 13px;
+  }
+
+  small.copyright__content, small.copyright__content a{
+    color: rgba(0,0,0,0) !important;
+  }
+
+  .enterfooter{
+      opacity: 0;
+  pointer-events: none;
+  }
+
+    
+      .enterfooter{
+        opacity: 1 !important;
+      pointer-events: inherit !important;
+      }
+    
+    #bg-video {
+  opacity: 0;
+  animation: fadeInVideo 1s forwards;
+}
+
+@keyframes fadeInVideo {
+  to { opacity: 1; }
+}
+
+  </style>
+  <div class="wrapper">
+    <div class="logo-container scale-in-center">
+  
+  
+  </div>
+
+  
+<video autoplay muted playsinline id="bg-video">
+  <source src="https://cdn.shopify.com/videos/c/o/v/b716c1c3d1fb4cf4a3577fe077f74b88.mp4" type="video/mp4">
+</video>
+<video autoplay muted playsinline id="bg-video_mobile">
+  <source src="https://cdn.shopify.com/videos/c/o/v/b716c1c3d1fb4cf4a3577fe077f74b88.mp4" type="video/mp4">
+</video>
+  
+  <div>
+  </div>
+<div class="menu-container">
+  
+    <div class="enter-button">
+      <a href="collections/all">ENTER NOW</a>
+    </div>
+    <ul class="menu-list" style="display:none;">
+  
+  
+    
+      <li class="menu-item"><a class="menu-link" href="/">Home</a></li>
+    
+      <li class="menu-item"><a class="menu-link" href="/collections/all">Catalog</a></li>
+    
+      <li class="menu-item"><a class="menu-link" href="/pages/contact">Contact</a></li>
+    
+  </ul>
+  
+</div>
+
+  
+
+  <div class="enterfooter" style="width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;">
+    <ul class="footer__list-social list-unstyled list-social"><li class="list-social__item">
+      <a href="http://instagram.com/shopify" class="link list-social__link" ><svg aria-hidden="true" focusable="false" class="icon icon-instagram" viewBox="0 0 18 18">
+  <path fill="currentColor" d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"/>
+  <path fill="currentColor" d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z">
+</svg>
+<span class="visually-hidden">Instagram</span>
+      </a>
+    </li><li class="list-social__item">
+      <a href="https://tiktok.com/@shopify" class="link list-social__link" ><svg
+  aria-hidden="true"
+  focusable="false"
+  class="icon icon-tiktok"
+  width="16"
+  height="18"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M8.02 0H11s-.17 3.82 4.13 4.1v2.95s-2.3.14-4.13-1.26l.03 6.1a5.52 5.52 0 11-5.51-5.52h.77V9.4a2.5 2.5 0 101.76 2.4L8.02 0z" fill="currentColor">
+</svg>
+<span class="visually-hidden">TikTok</span>
+      </a>
+    </li></ul>
+    
+    <div class="enter-copy" style="  display: flex;  position: absolute;
+    bottom: 10%; flex-direction: column; text-align: center;">
+      <small class="copyright__content">&copy; 2026, <a href="/" title="">narcissistic.wrld</a></small>
+      <small class="copyright__content">WEBSITE BY FKXMEDIA</small>
+    </div>
+  </div>
+  </div>
+
+<script>
+var videoMobile = document.getElementById('bg-video_mobile');
+videoMobile.addEventListener('ended', function() {
+    window.location.href = '/collections/all';
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var wrapper = document.querySelector('.wrapper');
+  var enterButton = document.querySelector('.two_bg_enter_button');
+  var logoContainer = document.querySelector('.logo-container');
+  var menuContainer = document.querySelector('.menu-container');
+  var enterFooter = document.querySelector('.enterfooter');
+  var footerSocial = document.querySelector('.footer__list-social');
+  var enterCopy = document.querySelector('.enter-copy');
+  
+  if (false) {
+    enterButton.addEventListener('click', function() {
+      wrapper.style.backgroundImage = 'url(' + '//narcissistic-wrld.myshopify.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12.gif' + ')';
+      logoContainer.style.display = 'none';
+      menuContainer.style.display = 'none';
+      enterFooter.style.display = 'none';
+      footerSocial.style.display = 'none';
+      enterCopy.style.display = 'none';
+      setTimeout(function() {
+        window.location.href = '/collections/all';
+      }, 6 * 1000);
+    });
+  }
+});
+</script>
+<script>
+  function updateTime() {
+    var today = new Date();
+    var date = today.toLocaleDateString().replace(/\./g, '/');
+    var hours = today.getHours();
+    var suffix = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12;
+    var minutes = today.getMinutes();
+    var time = hours + ':' + (minutes < 10 ? '0' : '') + minutes + ' ' + suffix;
+    var datetime = date + ' ' + time;
+    document.getElementById("datetime").innerHTML = datetime;
+  }
+
+  setInterval(updateTime, 1000);
+</script>
+
+</div>
+  
+
+  <div id="shopify-section-websitebg" class="shopify-section"><style>
+  .bgimg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -10;
+    height: 100vh;
+    width: 100vw;  
+    display: block !important;
+    
+  }
+
+  #bg-video_website_mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 500px){
+    .bgimg{
+
+    }
+  }
+  
+    .bgimg{
+      background: #000000;
+      background: ;
+    }
+  
+  
+  
+  
+    @media screen and (max-width: 500px){
+    .bgimg{
+      background-color: none !important;
+    }
+    
+    #bg-video_website {
+      display: none;
+    }
+    #bg-video_website_mobile {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      overflow: hidden;
+      z-index: -9;
+    }
+    }
+  
+
+
+</style>
+
+<div class="bgimg"></div>
+
+
+
+
+
+</div>
+  <div id="shopify-section-running-text" class="shopify-section">
+
+<style>
+
+  .running-text {
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .running-text-container {
+    animation: marquee 20s linear infinite;
+    display: inline-block;
+    padding-left: 100%;
+  }
+  
+  .running-text-content {
+    display: inline-block;
+    padding-right: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--font-heading-family);
+    font-weight: bold;
+  }
+  span.running-text-content {
+    color: #ffffff !important;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+
+
+
+
+
+</div>
+  <div id="shopify-section-pageloader" class="shopify-section">
+
+
+
+
+</div>
+    
+  
+
+
+  <body class="gradient">
+    <div id="custom-cursor"></div>
+    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
+      Skip to content
+    </a>
+
+<script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/cart.js?v=21876159511507192261765732759" defer="defer"></script>
+
+<style>
+  .drawer {
+    visibility: hidden;
+  }
+</style>
+
+<cart-drawer class="drawer is-empty">
+  <div id="CartDrawer" class="cart-drawer">
+    <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
+    <div
+      class="drawer__inner"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Your cart"
+      tabindex="-1"
+    ><div class="drawer__inner-empty">
+          <div class="cart-drawer__warnings center">
+            <div class="cart-drawer__empty-content">
+              <h2 class="cart__empty-text">Your cart is empty</h2>
+              <button
+                class="drawer__close"
+                type="button"
+                onclick="this.closest('cart-drawer').close()"
+                aria-label="Close"
+              >
+                <svg
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false"
+  class="icon icon-close"
+  fill="none"
+  viewBox="0 0 18 17"
+>
+  <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
+</svg>
+
+              </button>
+              <a href="/collections/all" class="button">
+                Continue shopping
+              </a><p class="cart__login-title h3">Have an account?</p>
+                <p class="cart__login-paragraph">
+                  <a href="https://narcissistic-wrld.myshopify.com/customer_authentication/redirect?locale=en&region_country=EG" class="link underlined-link">Log in</a> to check out faster.
+                </p></div>
+          </div></div><div class="drawer__header">
+        <h2 class="drawer__heading">Your cart</h2>
+        <button
+          class="drawer__close"
+          type="button"
+          onclick="this.closest('cart-drawer').close()"
+          aria-label="Close"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false"
+  class="icon icon-close"
+  fill="none"
+  viewBox="0 0 18 17"
+>
+  <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
+</svg>
+
+        </button>
+      </div>
+      <cart-drawer-items
+        
+          class=" is-empty"
+        
+      >
+        <form
+          action="/cart"
+          id="CartDrawer-Form"
+          class="cart__contents cart-drawer__form"
+          method="post"
+        >
+          <div id="CartDrawer-CartItems" class="drawer__contents js-contents"><p id="CartDrawer-LiveRegionText" class="visually-hidden" role="status"></p>
+            <p id="CartDrawer-LineItemStatus" class="visually-hidden" aria-hidden="true" role="status">
+              Loading...
+            </p>
+          </div>
+          <div id="CartDrawer-CartErrors" role="alert"></div>
+        </form>
+      </cart-drawer-items>
+      <div class="drawer__footer"><!-- Start blocks -->
+        <!-- Subtotals -->
+
+        <div class="cart-drawer__footer" >
+          <div class="totals" role="status">
+            <h2 class="totals__subtotal">Subtotal</h2>
+            <p class="totals__subtotal-value">LE 0.00 EGP</p>
+          </div>
+
+          <div></div>
+
+          <small class="tax-note caption-large rte">Taxes and shipping calculated at checkout
+</small>
+        </div>
+
+        <!-- CTAs -->
+
+        <div class="cart__ctas" >
+          <noscript>
+            <button type="submit" class="cart__update-button button button--secondary" form="CartDrawer-Form">
+              Update
+            </button>
+          </noscript>
+
+          <button
+            type="submit"
+            id="CartDrawer-Checkout"
+            class="cart__checkout-button button"
+            name="checkout"
+            form="CartDrawer-Form"
+            
+              disabled
+            
+          >
+            Check out
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</cart-drawer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    function isIE() {
+      const ua = window.navigator.userAgent;
+      const msie = ua.indexOf('MSIE ');
+      const trident = ua.indexOf('Trident/');
+
+      return msie > 0 || trident > 0;
+    }
+
+    if (!isIE()) return;
+    const cartSubmitInput = document.createElement('input');
+    cartSubmitInput.setAttribute('name', 'checkout');
+    cartSubmitInput.setAttribute('type', 'hidden');
+    document.querySelector('#cart').appendChild(cartSubmitInput);
+    document.querySelector('#checkout').addEventListener('click', function (event) {
+      document.querySelector('#cart').submit();
+    });
+  });
+</script>
+<!-- BEGIN sections: header-group -->
+<div id="shopify-section-sections--21029506089204__header" class="shopify-section shopify-section-group-header-group section-header"><link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-menu.css?v=151968516119678728991765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-search.css?v=184225813856820874251765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-menu-drawer.css?v=8459984863880599181765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-cart-notification.css?v=137625604348931474661765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-cart-items.css?v=23917223812499722491765732759" media="print" onload="this.media='all'"><link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-price.css?v=65402837579211014041765732759" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-loading-overlay.css?v=167310470843593579841765732759" media="print" onload="this.media='all'"><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-cart-drawer.css?v=35930391193938886121765732759" rel="stylesheet" type="text/css" media="all" />
+  <link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-cart.css?v=61086454150987525971765732759" rel="stylesheet" type="text/css" media="all" />
+  <link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-totals.css?v=86168756436424464851765732759" rel="stylesheet" type="text/css" media="all" />
+  <link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-price.css?v=65402837579211014041765732759" rel="stylesheet" type="text/css" media="all" />
+  <link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-discounts.css?v=152760482443307489271765732759" rel="stylesheet" type="text/css" media="all" />
+  <link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-loading-overlay.css?v=167310470843593579841765732759" rel="stylesheet" type="text/css" media="all" />
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-menu.css?v=151968516119678728991765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-search.css?v=184225813856820874251765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-menu-drawer.css?v=8459984863880599181765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-cart-notification.css?v=137625604348931474661765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-cart-items.css?v=23917223812499722491765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+
+<style>
+  .list-menu__item{
+    font-size: 18px !important;
+  }
+  header-drawer {
+    justify-self: start;
+    margin-left: -1.2rem;
+  }
+
+  .header__heading-logo {
+    max-width: 130px;
+  }@media screen and (min-width: 990px) {
+    header-drawer {
+      display: none;
+    }
+  }
+
+  .menu-drawer-container {
+    display: flex;
+  }
+
+  .list-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .list-menu--inline {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  summary.list-menu__item {
+    padding-right: 2.7rem;
+  }
+
+  .list-menu__item {
+    display: flex;
+    align-items: center;
+    line-height: calc(1 + 0.3 / var(--font-body-scale));
+  }
+
+  .list-menu__item--link {
+    text-decoration: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
+  }
+
+  @media screen and (min-width: 750px) {
+    .list-menu__item--link {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
+    }
+  }
+</style><style data-shopify>.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .section-header {
+    position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
+    margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-header {
+      margin-bottom: 0px;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .header {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }</style><script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/details-disclosure.js?v=153497636716254413831765732759" defer="defer"></script>
+<script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/details-modal.js?v=4511761896672669691765732759" defer="defer"></script>
+<script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/cart-notification.js?v=160453272920806432391765732759" defer="defer"></script>
+<script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/search-form.js?v=113639710312857635801765732759" defer="defer"></script><script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/cart-drawer.js?v=44260131999403604181765732759" defer="defer"></script><svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+  <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="icon-reset" class="icon icon-close"  fill="none" viewBox="0 0 18 18" stroke="currentColor">
+    <circle r="8.5" cy="9" cx="9" stroke-opacity="0.2"/>
+    <path d="M6.82972 6.82915L1.17193 1.17097" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
+    <path d="M1.22896 6.88502L6.77288 1.11523" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
+  </symbol>
+
+  <symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
+    <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
+  </symbol>
+</svg>
+<div class="header-wrapper color- gradient">
+  <header class="header header--middle-center header--mobile-center page-width"><details-modal class="header__search">
+        <details>
+          <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="Search">
+            <span>
+              <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+                <use href="#icon-search">
+              </svg>
+              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
+                <use href="#icon-close">
+              </svg>
+            </span>
+          </summary>
+          <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="Search">
+            <div class="modal-overlay"></div>
+            <div class="search-modal__content search-modal__content-bottom" tabindex="-1"><predictive-search class="search-modal__form" data-loading-text="Loading..."><form action="/search" method="get" role="search" class="search search-modal__form">
+                    <div class="field">
+                      <input class="search__input field__input"
+                        id="Search-In-Modal-1"
+                        type="search"
+                        name="q"
+                        value=""
+                        placeholder="Search"role="combobox"
+                          aria-expanded="false"
+                          aria-owns="predictive-search-results"
+                          aria-controls="predictive-search-results"
+                          aria-haspopup="listbox"
+                          aria-autocomplete="list"
+                          autocorrect="off"
+                          autocomplete="off"
+                          autocapitalize="off"
+                          spellcheck="false">
+                      <label class="field__label" for="Search-In-Modal-1">Search</label>
+                      <input type="hidden" name="options[prefix]" value="last">
+                      <button type="reset" class="reset__button field__button hidden" aria-label="Clear search term">
+                        <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                          <use xlink:href="#icon-reset">
+                        </svg>
+                      </button>
+                      <button class="search__button field__button" aria-label="Search">
+                        <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                          <use href="#icon-search">
+                        </svg>
+                      </button>
+                    </div><div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+                        <div class="predictive-search__loading-state">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                      </div>
+
+                      <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span></form></predictive-search><button type="button" class="modal__close-button link link--text focus-inset" aria-label="Close">
+                <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                  <use href="#icon-close">
+                </svg>
+              </button>
+            </div>
+          </div>
+        </details>
+      </details-modal><h1 class="header__heading"><a href="/" class="header__heading-link link link--text focus-inset"><span class="h2">narcissistic.wrld</span></a></h1><div class="header__icons">
+      <details-modal class="header__search">
+        <details>
+          <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="Search">
+            <span>
+              <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+                <use href="#icon-search">
+              </svg>
+              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
+                <use href="#icon-close">
+              </svg>
+            </span>
+          </summary>
+          <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="Search">
+            <div class="modal-overlay"></div>
+            <div class="search-modal__content search-modal__content-bottom" tabindex="-1"><predictive-search class="search-modal__form" data-loading-text="Loading..."><form action="/search" method="get" role="search" class="search search-modal__form">
+                    <div class="field">
+                      <input class="search__input field__input"
+                        id="Search-In-Modal"
+                        type="search"
+                        name="q"
+                        value=""
+                        placeholder="Search"role="combobox"
+                          aria-expanded="false"
+                          aria-owns="predictive-search-results"
+                          aria-controls="predictive-search-results"
+                          aria-haspopup="listbox"
+                          aria-autocomplete="list"
+                          autocorrect="off"
+                          autocomplete="off"
+                          autocapitalize="off"
+                          spellcheck="false">
+                      <label class="field__label" for="Search-In-Modal">Search</label>
+                      <input type="hidden" name="options[prefix]" value="last">
+                      <button type="reset" class="reset__button field__button hidden" aria-label="Clear search term">
+                        <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                          <use xlink:href="#icon-reset">
+                        </svg>
+                      </button>
+                      <button class="search__button field__button" aria-label="Search">
+                        <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                          <use href="#icon-search">
+                        </svg>
+                      </button>
+                    </div><div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+                        <div class="predictive-search__loading-state">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                      </div>
+
+                      <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span></form></predictive-search><button type="button" class="search-modal__close-button modal__close-button link link--text focus-inset" aria-label="Close">
+                <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                  <use href="#icon-close">
+                </svg>
+              </button>
+            </div>
+          </div>
+        </details>
+      </details-modal><a href="https://narcissistic-wrld.myshopify.com/customer_authentication/redirect?locale=en&region_country=EG" class="header__icon header__icon--account link focus-inset">
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false"
+  class="icon icon-account"
+  fill="none"
+  viewBox="0 0 18 19"
+>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M6 4.5a3 3 0 116 0 3 3 0 01-6 0zm3-4a4 4 0 100 8 4 4 0 000-8zm5.58 12.15c1.12.82 1.83 2.24 1.91 4.85H1.51c.08-2.6.79-4.03 1.9-4.85C4.66 11.75 6.5 11.5 9 11.5s4.35.26 5.58 1.15zM9 10.5c-2.5 0-4.65.24-6.17 1.35C1.27 12.98.5 14.93.5 18v.5h17V18c0-3.07-.77-5.02-2.33-6.15-1.52-1.1-3.67-1.35-6.17-1.35z" fill="currentColor">
+</svg>
+
+          <span class="visually-hidden">Log in</span>
+        </a><a href="/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+
+<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" fill="#ffffff" clip-rule="evenodd"><path d="M13.5 21c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5m0-2c-.828 0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5 1.5-.672 1.5-1.5-.672-1.5-1.5-1.5m-6 2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5m0-2c-.828 0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5 1.5-.672 1.5-1.5-.672-1.5-1.5-1.5m16.5-16h-2.964l-3.642 15h-13.321l-4.073-13.003h19.522l.728-2.997h3.75v1zm-22.581 2.997l3.393 11.003h11.794l2.674-11.003h-17.861z"/></svg><span class="visually-hidden">Cart</span></a>
+    </div>
+  </header>
+</div>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "narcissistic.wrld",
+    
+    "sameAs": [
+      "",
+      "",
+      "",
+      "http:\/\/instagram.com\/shopify",
+      "https:\/\/tiktok.com\/@shopify",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "url": "https:\/\/narcissistic-wrld.myshopify.com"
+  }
+</script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "narcissistic.wrld",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https:\/\/narcissistic-wrld.myshopify.com\/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "url": "https:\/\/narcissistic-wrld.myshopify.com"
+    }
+  </script>
+</div><div id="shopify-section-sections--21029506089204__2fdc4d38-0d9a-442f-aa28-acdb8ef7e8ef" class="shopify-section shopify-section-group-header-group">
+<style>
+    #shopdatetime{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    display: none;
+    padding: 0 !important;
+    margin: 0 !important;
+      
+  }
+
+
+
+
+
+
+
+</style>
+<p style="color: #ffffff !important;" id="shopdatetime"></p>
+
+<script>
+  function updateTime() {
+    var today = new Date();
+    var date = today.toLocaleDateString().replace(/\./g, '/');
+    var hours = today.getHours();
+    var suffix = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12;
+    var minutes = today.getMinutes();
+    var time = hours + ':' + (minutes < 10 ? '0' : '') + minutes + ' ' + suffix;
+    var datetime = date + ' ' + time;
+    document.getElementById("shopdatetime").innerHTML = datetime;
+  }
+
+  setInterval(updateTime, 1000);
+</script>
+
+</div>
+<!-- END sections: header-group -->
+  
+  
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      <section id="shopify-section-template--21029509726452__featured_collection" class="shopify-section section"><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-card.css?v=177780866427492200871765732759" rel="stylesheet" type="text/css" media="all" />
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-price.css?v=65402837579211014041765732759" rel="stylesheet" type="text/css" media="all" />
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rte.css?v=73443491922477598101765732759" rel="stylesheet" type="text/css" media="all" />
+
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-slider.css?v=111384418465749404671765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/template-collection.css?v=145944865380958730931765732759" media="print" onload="this.media='all'"><noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-slider.css?v=111384418465749404671765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/template-collection.css?v=145944865380958730931765732759" rel="stylesheet" type="text/css" media="all" /></noscript><style data-shopify>.section-template--21029509726452__featured_collection-padding {
+    padding-top: 21px;
+    padding-bottom: 27px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-template--21029509726452__featured_collection-padding {
+      padding-top: 28px;
+      padding-bottom: 36px;
+    }
+  }</style><div class="color-background-1 isolate gradient">
+  <div class="collection section-template--21029509726452__featured_collection-padding">
+    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width"><h2 class="title h2">Featured products</h2></div>
+
+    <slider-component class="slider-mobile-gutter page-width page-width-desktop">
+      <ul
+        id="Slider-template--21029509726452__featured_collection"
+        class="grid product-grid contains-card contains-card--product contains-card--standard grid--4-col-desktop grid--2-col-tablet-down"
+        role="list"
+        aria-label="Slider"
+      ><li
+            id="Slide-template--21029509726452__featured_collection-1"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 150.093808630394%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 150.093808630394%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608&width=940 940w,//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608&width=1066 1066w,//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608 1066w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/1cf3082e-a526-4a23-8387-6a5fd5e5cef8.jpg?v=1765156608&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="BLACK BEAR JACKET"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="1066"
+                height="1600"
+              >
+              
+<img
+                  srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/C67771B2-17D2-41B2-BB9A-9A02555A73C0.jpg?v=1765169810&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C67771B2-17D2-41B2-BB9A-9A02555A73C0.jpg?v=1765169810&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C67771B2-17D2-41B2-BB9A-9A02555A73C0.jpg?v=1765169810&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C67771B2-17D2-41B2-BB9A-9A02555A73C0.jpg?v=1765169810&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C67771B2-17D2-41B2-BB9A-9A02555A73C0.jpg?v=1765169810 853w
+                  "
+                  src="//narcissistic-wrld.myshopify.com/cdn/shop/files/C67771B2-17D2-41B2-BB9A-9A02555A73C0.jpg?v=1765169810&width=533"
+                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                  alt=""
+                  class="motion-reduce"
+                  loading="lazy"
+                  width="853"
+                  height="1280"
+                ></div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/black"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237964095732"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237964095732 NoMediaStandardBadge-template--21029509726452__featured_collection-9237964095732"
+              >
+                BLACK BEAR JACKET
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9237964095732"
+            
+          >
+            <a
+              href="/products/black"
+              id="CardLink-template--21029509726452__featured_collection-9237964095732"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9237964095732 Badge-template--21029509726452__featured_collection-9237964095732"
+            >
+              BLACK BEAR JACKET
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li><li
+            id="Slide-template--21029509726452__featured_collection-2"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 150.0586166471278%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 150.0586166471278%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/777.jpg?v=1765159243&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/777.jpg?v=1765159243&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/777.jpg?v=1765159243&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/777.jpg?v=1765159243&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/777.jpg?v=1765159243 853w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/777.jpg?v=1765159243&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="BLACK LEOPARD JACKET"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="853"
+                height="1280"
+              >
+              
+<img
+                  srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/03FAFCB5-C8E0-489B-82D3-F8F32A68091C.jpg?v=1765169950&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/03FAFCB5-C8E0-489B-82D3-F8F32A68091C.jpg?v=1765169950&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/03FAFCB5-C8E0-489B-82D3-F8F32A68091C.jpg?v=1765169950&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/03FAFCB5-C8E0-489B-82D3-F8F32A68091C.jpg?v=1765169950&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/03FAFCB5-C8E0-489B-82D3-F8F32A68091C.jpg?v=1765169950 853w
+                  "
+                  src="//narcissistic-wrld.myshopify.com/cdn/shop/files/03FAFCB5-C8E0-489B-82D3-F8F32A68091C.jpg?v=1765169950&width=533"
+                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                  alt=""
+                  class="motion-reduce"
+                  loading="lazy"
+                  width="853"
+                  height="1280"
+                ></div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/tiger"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237970977012"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237970977012 NoMediaStandardBadge-template--21029509726452__featured_collection-9237970977012"
+              >
+                BLACK LEOPARD JACKET
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9237970977012"
+            
+          >
+            <a
+              href="/products/tiger"
+              id="CardLink-template--21029509726452__featured_collection-9237970977012"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9237970977012 Badge-template--21029509726452__featured_collection-9237970977012"
+            >
+              BLACK LEOPARD JACKET
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li><li
+            id="Slide-template--21029509726452__featured_collection-3"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 150.0586166471278%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 150.0586166471278%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/D1C1AE3F-9CE1-487D-994E-05DDBBA0836D.jpg?v=1765169911&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/D1C1AE3F-9CE1-487D-994E-05DDBBA0836D.jpg?v=1765169911&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/D1C1AE3F-9CE1-487D-994E-05DDBBA0836D.jpg?v=1765169911&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/D1C1AE3F-9CE1-487D-994E-05DDBBA0836D.jpg?v=1765169911&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/D1C1AE3F-9CE1-487D-994E-05DDBBA0836D.jpg?v=1765169911 853w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/D1C1AE3F-9CE1-487D-994E-05DDBBA0836D.jpg?v=1765169911&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="EAGLE OWL JACKET"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="853"
+                height="1280"
+              >
+              
+</div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/eagle-owl-jacket"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681599732"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681599732 NoMediaStandardBadge-template--21029509726452__featured_collection-9251681599732"
+              >
+                EAGLE OWL JACKET
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9251681599732"
+            
+          >
+            <a
+              href="/products/eagle-owl-jacket"
+              id="CardLink-template--21029509726452__featured_collection-9251681599732"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9251681599732 Badge-template--21029509726452__featured_collection-9251681599732"
+            >
+              EAGLE OWL JACKET
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li><li
+            id="Slide-template--21029509726452__featured_collection-4"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 148.01603206412827%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 148.01603206412827%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474&width=940 940w,//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474&width=1066 1066w,//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474 2495w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/E966227E-A5A5-46F2-88C3-345858BB71F1.jpg?v=1766788474&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="EAGLE OWL PANTS"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="2495"
+                height="3693"
+              >
+              
+</div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/eagle-owl-pants"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681370356"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681370356 NoMediaStandardBadge-template--21029509726452__featured_collection-9251681370356"
+              >
+                EAGLE OWL PANTS
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9251681370356"
+            
+          >
+            <a
+              href="/products/eagle-owl-pants"
+              id="CardLink-template--21029509726452__featured_collection-9251681370356"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9251681370356 Badge-template--21029509726452__featured_collection-9251681370356"
+            >
+              EAGLE OWL PANTS
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li><li
+            id="Slide-template--21029509726452__featured_collection-5"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 150.0586166471278%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 150.0586166471278%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/238EB00E-E656-4EBD-A27F-E7E1D3CC7A88.jpg?v=1766787658&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/238EB00E-E656-4EBD-A27F-E7E1D3CC7A88.jpg?v=1766787658&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/238EB00E-E656-4EBD-A27F-E7E1D3CC7A88.jpg?v=1766787658&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/238EB00E-E656-4EBD-A27F-E7E1D3CC7A88.jpg?v=1766787658&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/238EB00E-E656-4EBD-A27F-E7E1D3CC7A88.jpg?v=1766787658 853w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/238EB00E-E656-4EBD-A27F-E7E1D3CC7A88.jpg?v=1766787658&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="EAGLE OWL SET"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="853"
+                height="1280"
+              >
+              
+<img
+                  srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658&width=940 940w,//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658&width=1066 1066w,//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658 2613w
+                  "
+                  src="//narcissistic-wrld.myshopify.com/cdn/shop/files/9E2C096C-097A-4A6A-8E18-224B1B840289.jpg?v=1766787658&width=533"
+                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                  alt=""
+                  class="motion-reduce"
+                  loading="lazy"
+                  width="2613"
+                  height="3919"
+                ></div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/nsr"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237970845940"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237970845940 NoMediaStandardBadge-template--21029509726452__featured_collection-9237970845940"
+              >
+                EAGLE OWL SET
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9237970845940"
+            
+          >
+            <a
+              href="/products/nsr"
+              id="CardLink-template--21029509726452__featured_collection-9237970845940"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9237970845940 Badge-template--21029509726452__featured_collection-9237970845940"
+            >
+              EAGLE OWL SET
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 1,300.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 1,300.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li><li
+            id="Slide-template--21029509726452__featured_collection-6"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 150.093808630394%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 150.093808630394%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=940 940w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=1066 1066w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783 1066w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="GRAY WOLF JACKET"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="1066"
+                height="1600"
+              >
+              
+</div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/gray-wolf-jacket"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681829108"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681829108 NoMediaStandardBadge-template--21029509726452__featured_collection-9251681829108"
+              >
+                GRAY WOLF JACKET
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9251681829108"
+            
+          >
+            <a
+              href="/products/gray-wolf-jacket"
+              id="CardLink-template--21029509726452__featured_collection-9251681829108"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9251681829108 Badge-template--21029509726452__featured_collection-9251681829108"
+            >
+              GRAY WOLF JACKET
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li><li
+            id="Slide-template--21029509726452__featured_collection-7"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 149.98143334571108%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 149.98143334571108%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474&width=940 940w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474&width=1066 1066w,//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474 2693w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/C52C2569-84A5-4786-A6EA-37F0A2C3FA18.jpg?v=1766788474&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="GRAY WOLF PANTS"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="2693"
+                height="4039"
+              >
+              
+</div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/gray-wolf-pants"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681075444"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9251681075444 NoMediaStandardBadge-template--21029509726452__featured_collection-9251681075444"
+              >
+                GRAY WOLF PANTS
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9251681075444"
+            
+          >
+            <a
+              href="/products/gray-wolf-pants"
+              id="CardLink-template--21029509726452__featured_collection-9251681075444"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9251681075444 Badge-template--21029509726452__featured_collection-9251681075444"
+            >
+              GRAY WOLF PANTS
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 700.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li><li
+            id="Slide-template--21029509726452__featured_collection-8"
+            class="grid__item"
+          >
+            
+
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rating.css?v=24573085263941240431765732759" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard fade-in
+         card--media
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 150.0586166471278%;"
+    >
+      <div
+        class="card__inner color-background-2 gradient ratio"
+        style="--ratio-percent: 150.0586166471278%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/87678678.jpg?v=1766787783&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/87678678.jpg?v=1766787783&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/87678678.jpg?v=1766787783&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/87678678.jpg?v=1766787783&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/87678678.jpg?v=1766787783 853w
+                "
+                src="//narcissistic-wrld.myshopify.com/cdn/shop/files/87678678.jpg?v=1766787783&width=533"
+                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="GRAY WOLF SET"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="853"
+                height="1280"
+              >
+              
+<img
+                  srcset="//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=165 165w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=360 360w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=533 533w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=720 720w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=940 940w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=1066 1066w,//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783 1066w
+                  "
+                  src="//narcissistic-wrld.myshopify.com/cdn/shop/files/987956875865.jpg?v=1766787783&width=533"
+                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                  alt=""
+                  class="motion-reduce"
+                  loading="lazy"
+                  width="1066"
+                  height="1600"
+                ></div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/gray"
+                id="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237971402996"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--21029509726452__featured_collection-9237971402996 NoMediaStandardBadge-template--21029509726452__featured_collection-9237971402996"
+              >
+                GRAY WOLF SET
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge top right"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--21029509726452__featured_collection-9237971402996"
+            
+          >
+            <a
+              href="/products/gray"
+              id="CardLink-template--21029509726452__featured_collection-9237971402996"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--21029509726452__featured_collection-9237971402996 Badge-template--21029509726452__featured_collection-9237971402996"
+            >
+              GRAY WOLF SET
+            </a>
+          </h3>
+          <div class="card-information"><span class="caption-large light"></span>
+<div class="
+    price ">
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        LE 1,300.00 EGP
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        LE 1,300.00 EGP
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="card__badge top right"></div>
+      </div>
+    </div>
+  </div>
+          </li></ul></slider-component><div class="center collection__view-all">
+        <a
+          href="/collections/all"
+          class="button"
+          aria-label="View all products in the Products collection"
+        >
+          View all
+        </a>
+      </div></div>
+</div>
+
+
+</section>
+    </main>
+
+    <!-- BEGIN sections: footer-group -->
+<div id="shopify-section-sections--21029506023668__footer" class="shopify-section shopify-section-group-footer-group">
+<link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/section-footer.css?v=29640687956118599371765732759" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-newsletter.css?v=103472482056003053551765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-menu.css?v=151968516119678728991765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-payment.css?v=69253961410771838501765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-social.css?v=52211663153726659061765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rte.css?v=73443491922477598101765732759" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/disclosure.css?v=646595190999601341765732759" media="print" onload="this.media='all'">
+
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-newsletter.css?v=103472482056003053551765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-menu.css?v=151968516119678728991765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-payment.css?v=69253961410771838501765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-list-social.css?v=52211663153726659061765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/component-rte.css?v=73443491922477598101765732759" rel="stylesheet" type="text/css" media="all" /></noscript>
+<noscript><link href="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/disclosure.css?v=646595190999601341765732759" rel="stylesheet" type="text/css" media="all" /></noscript><style data-shopify>.footer {
+    margin-top: 36px;
+  }
+
+  .section-sections--21029506023668__footer-padding {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .footer {
+      margin-top: 48px;
+    }
+
+    .section-sections--21029506023668__footer-padding {
+      padding-top: 36px;
+      padding-bottom: 36px;
+    }
+  }</style><footer class="footer color- gradient section-sections--21029506023668__footer-padding"><div class="footer__content-top page-width"><div class="footer-block--newsletter"><div class="footer-block__newsletter"><h2 class="footer-block__heading">Subscribe to our emails</h2><form method="post" action="/contact#ContactFooter" id="ContactFooter" accept-charset="UTF-8" class="footer__newsletter newsletter-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="contact[tags]" value="newsletter">
+                <div class="newsletter-form__field-wrapper">
+                  <div class="field">
+                    <input
+                      id="NewsletterForm--sections--21029506023668__footer"
+                      type="email"
+                      name="contact[email]"
+                      class="field__input"
+                      value=""
+                      aria-required="true"
+                      autocorrect="off"
+                      autocapitalize="off"
+                      autocomplete="email"
+                      
+                      placeholder="Email"
+                      required
+                    >
+                    <label class="field__label" for="NewsletterForm--sections--21029506023668__footer">
+                      Email
+                    </label>
+                    <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="Subscribe">
+                      <svg
+  viewBox="0 0 14 10"
+  fill="none"
+  aria-hidden="true"
+  focusable="false"
+  class="icon icon-arrow"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
+</svg>
+
+                    </button>
+                  </div></div></form></div><ul class="footer__list-social list-unstyled list-social"><li class="list-social__item">
+      <a href="http://instagram.com/shopify" class="link list-social__link" ><svg aria-hidden="true" focusable="false" class="icon icon-instagram" viewBox="0 0 18 18">
+  <path fill="currentColor" d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"/>
+  <path fill="currentColor" d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z">
+</svg>
+<span class="visually-hidden">Instagram</span>
+      </a>
+    </li><li class="list-social__item">
+      <a href="https://tiktok.com/@shopify" class="link list-social__link" ><svg
+  aria-hidden="true"
+  focusable="false"
+  class="icon icon-tiktok"
+  width="16"
+  height="18"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M8.02 0H11s-.17 3.82 4.13 4.1v2.95s-2.3.14-4.13-1.26l.03 6.1a5.52 5.52 0 11-5.51-5.52h.77V9.4a2.5 2.5 0 101.76 2.4L8.02 0z" fill="currentColor">
+</svg>
+<span class="visually-hidden">TikTok</span>
+      </a>
+    </li></ul></div>
+      </div><div class="footer__content-bottom">
+    <div class="footer__content-bottom-wrapper page-width">
+      <div class="footer__column footer__localization isolate"></div>
+      <div class="footer__column footer__column--info"></div>
+    </div>
+    <div class="footer__content-bottom-wrapper page-width">
+      <div class="footer__copyright caption">
+        <small style="color: #dcdcdc" class="copyright__content">&copy; 2026, <a href="/" title="">narcissistic.wrld</a></small>
+        <small class="copyright__content fkxcopysite">WEBSITE BY WEBSY_STUDIOS</small><ul class="policies list-unstyled"><li><small class="copyright__content"><a href="/policies/privacy-policy">Privacy policy</a></small></li></ul></div>
+    </div>
+  </div>
+<div style="text-align:center; margin-top:10px;">
+  <p>  </p>
+  <p style="font-size:15px; letter-spacing:0.5px; font-weight:500;">
+    © Designed & Developed by WEBSY_STUDIOS
+  </p>
+</div>
+</footer>
+
+
+
+
+</div>
+<!-- END sections: footer-group -->
+
+    <ul hidden>
+      <li id="a11y-refresh-page-message">Choosing a selection results in a full page refresh.</li>
+      <li id="a11y-new-window-message">Opens in a new window.</li>
+    </ul>
+    <script>
+document.addEventListener('mousemove', function(e) {
+  var cursor = document.getElementById('custom-cursor');
+  cursor.style.left = e.pageX + 'px';
+  cursor.style.top = e.pageY + 'px';
+});
+    </script>
+    <script>
+      window.shopUrl = 'https://narcissistic-wrld.myshopify.com';
+      window.routes = {
+        cart_add_url: '/cart/add',
+        cart_change_url: '/cart/change',
+        cart_update_url: '/cart/update',
+        cart_url: '/cart',
+        predictive_search_url: '/search/suggest'
+      };
+
+      window.cartStrings = {
+        error: `There was an error while updating your cart. Please try again.`,
+        quantityError: `You can only add [quantity] of this item to your cart.`
+      }
+
+      window.variantStrings = {
+        addToCart: `Add to cart`,
+        soldOut: `Sold out`,
+        unavailable: `Unavailable`,
+        unavailable_with_option: `[value] - Unavailable`,
+      }
+
+      window.accessibilityStrings = {
+        imageAvailable: `Image [index] is now available in gallery view`,
+        shareSuccess: `Link copied to clipboard`,
+        pauseSlideshow: `Pause slideshow`,
+        playSlideshow: `Play slideshow`,
+      }
+    </script>
+    
+<script src="//narcissistic-wrld.myshopify.com/cdn/shop/t/6/assets/predictive-search.js?v=16985596534672189881765732759" defer="defer"></script><div id="shopify-section-audio-player" class="shopify-section">
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      const intro = document.querySelector('.intro-section');
+      if (intro) {
+        intro.style.display = 'none';
+      }
+    }, 5000);
+  });
+</script>
+
+<script src="https://cdn.shopify.com/storefront/standard-actions.js" type="module" data-source-attribution="shopify.standard_actions"></script>
+</body>
+</html>
